@@ -1,0 +1,85 @@
+.card_block_row{
+	display: flex;
+	gap: 50px;
+}
+.card_block_item{
+	border-radius: 32px;
+	background: #000;
+	padding: 40px;
+}
+.card_item_img{
+	max-width: 389px;
+	max-height: 465px;
+}
+.card_item_info{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+.card_item_info_colum{
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+.card_item_tags{
+	border-radius: 6px;
+	background: #191919;
+	padding: 0 16px;
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 150% */
+}
+.card_item_tags_block{
+	display: flex;
+}
+.card_item_episode_num{
+	color: #118DA8;
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 158.824% */
+}
+.card_item_title{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 70.4px; /* 110% */
+	letter-spacing: 2.56px;
+}
+.card_item_text{
+	color: rgba(255, 255, 255, 0.70);
+	font-family: DM Sans;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px; /* 150% */
+}
+.card_item_button_block{
+	display: flex;
+}
+.card_item_button{
+	cursor: pointer;
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 150% */
+	padding: 15px 20px;
+	border-radius: 6px;
+	background: #118DA8;
+}
+@media screen and (max-width:1000px){
+	.card_block_row{
+		flex-direction: column;
+	}
+	.card_item_img{
+		width: 100%;
+	}
+}

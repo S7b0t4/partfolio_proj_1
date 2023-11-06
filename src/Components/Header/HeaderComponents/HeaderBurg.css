@@ -1,0 +1,38 @@
+.header_burg{
+	display: none;
+}
+.header_burg_visual{
+	font-size: 40px;
+	text-align: center;
+	align-items: center;
+	cursor: pointer;
+}
+.header_adoptive_visual{
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0	;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.75);
+	z-index: 100;
+}
+.header_adoptive_not_visual{
+	display: none;
+}
+.header_burg_not_visual{
+	display: none;
+}
+.header_burger_exit{
+	font-size: 60px;
+}
+.header_adoptive_row{
+	padding: 30px;
+	display: flex;
+	justify-content: end;
+}
+@media screen and (max-width: 1000px){
+	.header_burg{
+		display: block;
+	}
+}

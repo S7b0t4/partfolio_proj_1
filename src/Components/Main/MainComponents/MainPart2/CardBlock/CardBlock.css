@@ -1,0 +1,5 @@
+.card_block_colum{
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}

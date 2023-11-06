@@ -1,0 +1,16 @@
+.main_part_3_container{
+	margin: 100px 0;
+}
+.main_part_3_row{
+	display: flex;
+	gap: 60px;
+	justify-content: space-between;
+}
+.main_part_3_adoptive{
+	display: block;
+}
+@media screen and (max-width: 1500px){
+	.main_part_3_adoptive{
+		display: none;
+	}
+}

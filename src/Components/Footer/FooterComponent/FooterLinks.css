@@ -1,0 +1,14 @@
+.footer_links{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.footer_links_item{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 150% */
+	cursor: pointer;
+}

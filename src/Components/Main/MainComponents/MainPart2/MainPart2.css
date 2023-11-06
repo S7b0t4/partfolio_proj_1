@@ -1,0 +1,6 @@
+.main_part_2_container{
+	margin: 90px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 66px;
+}

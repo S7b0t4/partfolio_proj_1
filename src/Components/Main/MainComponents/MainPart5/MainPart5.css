@@ -1,0 +1,5 @@
+.main_part_5{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 18px;
+}

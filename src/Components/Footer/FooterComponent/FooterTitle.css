@@ -1,0 +1,9 @@
+.footer_title_colum{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.footer_title_colum_link{
+	display: flex;
+	gap: 10px;
+}

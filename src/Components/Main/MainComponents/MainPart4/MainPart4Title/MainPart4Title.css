@@ -1,0 +1,20 @@
+.main_part_4_title_blue_text{
+	color: #118DA8;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 150% */
+}
+.main_part_4_title_title{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 79.2px; /* 110% */
+	letter-spacing: 2.88px;
+}
+.main_part_4_title_block{
+	max-width: 431px;
+}

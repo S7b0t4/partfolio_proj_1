@@ -1,0 +1,18 @@
+.button{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 158.824% */
+	cursor: pointer;
+}
+.button:hover{
+	color: #118DA8;
+
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 158.824% */
+}

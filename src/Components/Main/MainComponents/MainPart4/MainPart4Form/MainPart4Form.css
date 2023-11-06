@@ -1,0 +1,34 @@
+.main_part_4_form{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	max-width: 522px;
+}
+.main_part_4_form_input{
+	padding: 26px 10px;
+	border-radius: 6px;
+	border: 1px solid #191919;
+	background: #191919;
+	color: rgba(255, 255, 255, 0.70);
+	font-family: DM Sans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28.8px; /* 120% */
+}
+.main_part_4_form_button_block{
+	display: flex;
+}
+.main_part_4_form_button{
+	color: rgba(255, 255, 255, 0.70);
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28.8px; /* 192% */
+
+	border-radius: 6px;
+	background: #118DA8;
+	padding: 10px;
+}

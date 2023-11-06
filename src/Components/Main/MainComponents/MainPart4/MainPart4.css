@@ -1,0 +1,34 @@
+.main_part_4_container{
+	margin: 100px 0;
+	position: relative;
+	padding: 50px;
+}
+.main_part_4_block{
+	display: block;
+}
+.main_part_4{
+	border-radius: 32px;
+	background: #000;
+	padding: 60px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 10px;
+}
+.main_part_4_sticks{
+	position: absolute;
+	z-index: 11px;
+	left: 0;
+	bottom: 0;
+}
+@media screen and (max-width: 1500px){
+	.main_part_4_container{
+		padding: 0;
+	}
+	.main_part_4{
+		flex-direction: column;
+		gap: 30px;
+	}
+	.main_part_4_sticks{
+		display: none;
+	}
+}

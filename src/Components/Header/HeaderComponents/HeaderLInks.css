@@ -1,0 +1,10 @@
+.link_row{
+	display: flex;
+	gap: 40px;
+}
+
+@media screen and (max-width: 1000px){
+	.link_row{
+		display: none;
+	}
+}

@@ -1,0 +1,22 @@
+.title_block_name{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 79.2px; /* 123.75% */
+	letter-spacing: 2.88px;
+}
+.title_block_button{
+	color: #FFF;
+	font-family: DM Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px; /* 158.824% */
+	cursor: pointer;
+	user-select: none;
+	border-radius: 6px;
+	background: #118DA8;
+	padding: 15px 20px;
+}
